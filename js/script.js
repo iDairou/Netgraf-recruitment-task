@@ -1,9 +1,9 @@
-document.addEventListener("DOMContentLoaded", init);
 import fields from "./fields.js";
 import { slider } from "./slider.js";
 import API from "./api.js";
 import { zipCodeFunction } from "./zipCode.js";
 
+document.addEventListener("DOMContentLoaded", init);
 function init() {
 	const formEl = document.querySelector("form");
 	const errorMessages = document.querySelector(".errors");
@@ -18,7 +18,9 @@ function init() {
 
 	const sendData = (data) => {
 		apiProrvider.sendForm(data).then((resp) => {
-			console.log(resp);
+			console.log(resp.json);
+		}).catch(err =>{
+			console.log(err);
 		});
 	};
 
@@ -52,12 +54,13 @@ function init() {
 
 			errorMessages.innerHTML = "";
 			if (errors.length === 0) {
-				alert("Dane zostały wprowadzone prawidłowo");
+				
 				fields.forEach((el) => {
-					formData[el.name] = formEl[el.name].value;
+					formData[el.label] = formEl[el.name].value;
 					formEl[el.name].value = "";
 				});
 				sendData(formData);
+				alert(formData);
 			} else {
 				errors.forEach((text) => {
 					const liEl = document.createElement("li");

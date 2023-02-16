@@ -76,7 +76,6 @@
 	}
 }
 .form {
-
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
 	grid-template-rows: repeat(1, 1fr);
@@ -148,7 +147,6 @@
 			}
 		}
 	}
-
 }
 .errors {
 	display: flex;
@@ -174,8 +172,8 @@
 	}
 }
 .arrow-next {
-	right: 50px
+	right: 50px;
 }
 .arrow-prev {
-	left: 50px
+	left: 50px;
 }
