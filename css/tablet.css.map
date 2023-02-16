@@ -1,10 +1,11 @@
 {
     "version": 3,
-    "mappings": "AEAA,AAAA,KAAK,CAAA;EACD,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,cAAc,EAAE,MAAM;CACzB",
+    "mappings": "AECA,AAAA,KAAK,CAAC;EACL,qBAAqB,EAAE,cAAc;CAMrC;;AAPD,AAEC,KAFI,CAEJ,YAAY,CAAC;EACZ,SAAS,EDHQ,IAAI;ECIrB,WAAW,EDDC,IAAI;ECEhB,YAAY,EDHQ,IAAI;CCIxB",
     "sources": [
         "../styles/sass/tablet.scss",
         "../styles/sass/_var.scss",
         "../styles/sass/tablet/_form.scss",
+        "../styles/sass/_var.scss",
         "../styles/sass/tablet/_products.scss"
     ],
     "names": [],

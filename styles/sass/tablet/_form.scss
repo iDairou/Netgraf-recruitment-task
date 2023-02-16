@@ -1,5 +1,9 @@
-.form{
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+@import "../var";
+.form {
+	grid-template-columns: repeat(2, 1fr);
+	.form__field {
+		font-size: $font-size-tablet;
+		line-height: $line-height;
+		padding-left: $padding-text-tablet;
+	}
 }
