@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,KAAK,CAAA;EACD,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,cAAc,EAAE,MAAM;CACzB",
+    "sources": [
+        "../styles/sass/tablet.scss",
+        "../styles/sass/_var.scss",
+        "../styles/sass/tablet/_form.scss",
+        "../styles/sass/tablet/_products.scss"
+    ],
+    "names": [],
+    "file": "tablet.css"
+}

@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,KAAK,CAAA;EACD,qBAAqB,EAAE,cAAc;EACxC,kBAAkB,EAAE,cAAc;EAClC,eAAe,EAAE,IAAI;EACrB,YAAY,EAAE,IAAI;CAClB",
+    "sources": [
+        "../styles/sass/mobile.scss",
+        "../styles/sass/_var.scss",
+        "../styles/sass/mobile/_form.scss",
+        "../styles/sass/mobile/_products.scss"
+    ],
+    "names": [],
+    "file": "mobile.css"
+}

@@ -1,0 +1,138 @@
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.form .form__field {
+  border: 1px solid #d6d6d6;
+  border-radius: 4px;
+  height: 48px;
+  margin: 20px 20px 0 0;
+  text-align: initial;
+  font-size: 14px;
+  line-height: 16px;
+  padding-left: 20px;
+}
+
+.form .form__field::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #1a1a1a;
+}
+
+.form .form__field:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #1a1a1a;
+}
+
+.form .form__field::-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #1a1a1a;
+}
+
+.form .form__field::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #1a1a1a;
+}
+
+.form .city-container {
+  width: 433px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.form .city-container .field-zip {
+  width: 30%;
+  margin-right: 5px;
+}
+
+.form .city-container .field-city {
+  width: 70%;
+}
+
+.form .street-container {
+  width: 433px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.form .street-container .field-building,
+.form .street-container .field-house {
+  width: 95px;
+}
+
+.form .street-container .field-street,
+.form .street-container .field-building {
+  margin-right: 5px;
+}
+
+.form .street-container .field-street {
+  width: 212px;
+}
+
+.form .field-select {
+  width: 413px;
+}
+
+.form .field-firstname,
+.form .field-lastname {
+  width: 413px;
+}
+
+.form .form__button-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 30px;
+}
+
+.form .form__button-container .form__button {
+  width: 70px;
+  height: 48px;
+  left: 635px;
+  top: 224px;
+  border-radius: 4px;
+  border: none;
+  background-color: #03dac6;
+  color: #fff;
+  -webkit-transition: .2s;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.form .form__button-container .form__button:hover {
+  background-color: limegreen;
+}
+
+.form .errors {
+  text-align: center;
+  width: 100%;
+}
+/*# sourceMappingURL=form.css.map */

@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,iBAAiB,CAAA;EAChB,KAAK,EAAE,KAAK;CACZ",
+    "sources": [
+        "../styles/sass/desktop.scss",
+        "../styles/sass/_var.scss",
+        "../styles/sass/desktop/_form.scss",
+        "../styles/sass/desktop/_products.scss"
+    ],
+    "names": [],
+    "file": "desktop.css"
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netgraf Task</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./styles/css/mobile.css">
+    <link rel="stylesheet" media="(min-width:976px)" href="./css/tablet.css">
+    <link rel="stylesheet" media="(min-width:1350px)" href="./css/desktop.css">
+
+ 
+
+</head>
+
+<body>
+    <section class="container">
+        <header class="header">
+            <h2 class="header__title">Formularz kontaktowy</h2>
+        </header>
+   
+        <form class="form" action="/" method="POST" novalidate>
+
+            <div class="form__field-container">
+                <input class="form__field field-firstname" name="firstName" placeholder="Imię">
+            </div>
+            <div class="form__field-container">
+                <input class="form__field field-lastname" name="lastName" placeholder="Nazwisko">
+            </div>
+            <div class="form__field-container street-container">
+                <input class="form__field field-street" name="street" placeholder="Ulica">
+                <input class="form__field field-building" type="number" name="buildingNumber" placeholder="Nr domu">
+                <input class="form__field field-house" type="number" name="houseNumber" placeholder="Nr lokalu">
+            </div>
+            <div class="form__field-container city-container">
+                <input maxlength="5" class="form__field field-zip" name="zip" placeholder="Kod pocztowy">
+                <input class="form__field field-city" name="city" placeholder="Miasto">
+            </div>
+            <div class="form__field-container">
+                <select class="form__field field-select" name="country">
+                    <option>Kraj</option>
+                    <option>Polska</option>
+                    <option>Niemcy</option>
+                    <option>Wielka Brytania</option>
+                </select>
+
+            </div>
+            <ul class="errors">
+            </ul>
+          
+            <div class="form__button-container">
+                <input class="form__button button" type="submit" value="Wyślij">
+            </div>
+
+
+        </form>
+    </section>
+    <section class="container">
+     
+            <header class="header">
+                <h2 class="header__title">Produkty</h2>
+            </header>
+            <div class="products">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="product swiper-slide">
+                    <div class="product__image"></div>
+                    <div class="product__price">
+                        <span class="product__price--previous">9999,99 zł</span>
+                        <span class="product__price--current">9999,99 zł</span>
+                    </div>
+                    <div class="product__description">Nazwa produktu test widoczności w drugiej linii...</div>
+                    <button class="product__button">Dodaj do koszyka</button>
+                </div>
+                  <div class="product swiper-slide">
+                    <div class="product__image"></div>
+                    <div class="product__price">
+                        <span class="product__price--previous">9999,99 zł</span>
+                        <span class="product__price--current">9999,99 zł</span>
+                    </div>
+                    <div class="product__description">Nazwa produktu test widoczności w drugiej linii...</div>
+                    <button class="product__button">Dodaj do koszyka</button>
+                </div>
+                  <div class="product swiper-slide">
+                    <div class="product__image"></div>
+                    <div class="product__price">
+                        <span class="product__price--previous">9999,99 zł</span>
+                        <span class="product__price--current">9999,99 zł</span>
+                    </div>
+                    <div class="product__description">Nazwa produktu test widoczności w drugiej linii...</div>
+                    <button class="product__button">Dodaj do koszyka</button>
+                </div>
+                  <div class="product swiper-slide">
+                    <div class="product__image"></div>
+                    <div class="product__price">
+                        <span class="product__price--previous">9999,99 zł</span>
+                        <span class="product__price--current">9999,99 zł</span>
+                    </div>
+                    <div class="product__description">Nazwa produktu test widoczności w drugiej linii...</div>
+                    <button class="product__button">Dodaj do koszyka</button>
+                </div>
+                  <div class="product swiper-slide">
+                    <div class="product__image"></div>
+                    <div class="product__price">
+                        <span class="product__price--previous">9999,99 zł</span>
+                        <span class="product__price--current">9999,99 zł</span>
+                    </div>
+                    <div class="product__description">Nazwa produktu test widoczności w drugiej linii...</div>
+                    <button class="product__button">Dodaj do koszyka</button>
+                </div>
+                  <div class="product swiper-slide">
+                    <div class="product__image"></div>
+                    <div class="product__price">
+                        <span class="product__price--previous">9999,99 zł</span>
+                        <span class="product__price--current">9999,99 zł</span>
+                    </div>
+                    <div class="product__description">Nazwa produktu test widoczności w drugiej linii...</div>
+                    <button class="product__button">Dodaj do koszyka</button>
+                </div>
+                </div>
+              
+                <!-- If we need navigation buttons -->
+          
+              
+              </div>
+              <div class="swiper-button-prev arrow-prev"></div>
+              <div class="swiper-button-next arrow-next"></div>
+
+
+
+
+
+
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module" src="js/script.js"></script>
+</body>
+
+</html>
